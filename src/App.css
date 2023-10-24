@@ -5,3 +5,8 @@
   text-align: center;
 }
 
+header {
+  margin-top: -20px;
+  width: 60vw;
+  border-bottom: 1px solid gray;
+}
