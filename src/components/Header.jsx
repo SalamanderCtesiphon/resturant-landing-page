@@ -5,7 +5,9 @@ function Header() {
     <header>
       <button>Home</button>
       <button>Menu</button>
-      <button>About</button>
+      <button>
+        <a href="about">About</a>
+      </button>
     </header>
   )
 }
