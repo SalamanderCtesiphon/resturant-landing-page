@@ -10,3 +10,13 @@ header {
   width: 60vw;
   border-bottom: 1px solid gray;
 }
+
+#home-pic {
+  height: 500px;
+  width: 400px;
+  object-fit: cover;
+}
+
+#res-btn {
+  border-radius: 10px;
+}

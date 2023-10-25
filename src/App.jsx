@@ -4,6 +4,7 @@ import About from './pages/About.jsx'
 import Home from './pages/Home'
 import Menu from './pages/Menu'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import Reservation from './pages/Reservation'
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: '/menu',
     element: <Menu />,
+  },
+  {
+    path: '/res',
+    element: <Reservation />,
   },
 ])
 
