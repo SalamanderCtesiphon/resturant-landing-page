@@ -12,6 +12,14 @@ function About() {
           laboriosam quod numquam commodi distinctio harum totam a, delectus
           nulla sequi. Ratione, natus.
         </p>
+        <p className="about">
+          Resturant page is a ficticious website which was created to
+          demonstrate the power of ES6 modules. React Router is used for
+          client-side navigation via the nav links in the header. A third-party
+          styled componet was used for the reservation form. This is a React
+          application which utilizes React Browser-Router for client-side
+          navigation.
+        </p>
         <span>
           Email us:{' '}
           <a href="http://" target="_blank" rel="noopener noreferrer">
