@@ -2,6 +2,7 @@ import './App.css'
 import Header from './components/Header'
 import About from './pages/About.jsx'
 import Home from './pages/Home'
+import Menu from './pages/Menu'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter([
@@ -10,19 +11,22 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: '/profile',
+    path: '/about',
     element: <About />,
+  },
+  {
+    path: '/menu',
+    element: <Menu />,
   },
 ])
 
 function App() {
   return (
     <>
-      <Header />
+      <Header router={router} />
       <section>
-        <h1>I said!!! ... please?</h1>
+        <RouterProvider router={router} />
       </section>
-      <RouterProvider router={router} />
     </>
   )
 }
