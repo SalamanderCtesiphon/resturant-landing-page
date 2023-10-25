@@ -14,6 +14,10 @@ header {
 }
 
 section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   height: auto;
   padding: 10px;
 }
@@ -26,4 +30,35 @@ section {
 
 #res-btn {
   border-radius: 10px;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+li {
+  list-style: none;
+  width: 400px;
+  text-align: center;
+  background-color: #1a1a1a;
+  padding: 4px 10px;
+  margin: 4px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+}
+
+li:hover {
+  border-color: #646cff;
+}
+
+small {
+  font-size: 14px;
+}
+
+.about {
+  width: 50%;
+  text-align: center;
 }
