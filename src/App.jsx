@@ -5,6 +5,7 @@ import Home from './pages/Home'
 import Menu from './pages/Menu'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Reservation from './pages/Reservation'
+import Footer from './components/Footer'
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,7 @@ function App() {
       <section>
         <RouterProvider router={router} />
       </section>
+      <Footer />
     </>
   )
 }
