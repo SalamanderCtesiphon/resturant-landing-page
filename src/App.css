@@ -83,7 +83,7 @@ small {
   display: flex;
   align-items: center;
   padding-left: 30px;
-  color: #00bfff;
+  color: #646cff;
 }
 
 .title::before {
@@ -105,30 +105,17 @@ small {
   width: 16px;
   border-radius: 50%;
   left: 0px;
-  background-color: #00bfff;
+  background-color: #646cff;
 }
 
-.message, 
-.signin {
+.message {
   font-size: 14.5px;
   color: rgba(255, 255, 255, 0.7);
 }
 
-.signin {
-  text-align: center;
-}
-
-.signin a:hover {
-  text-decoration: underline royalblue;
-}
-
-.signin a {
-  color: #00bfff;
-}
-
 .flex {
   display: flex;
-  width: 100%;
+  width: 97.5%;
   gap: 6px;
 }
 
@@ -163,7 +150,7 @@ small {
 
 .form label .input:focus + span,
 .form label .input:valid + span {
-  color: #00bfff;
+  color: #646cff;
   top: 0px;
   font-size: 0.7em;
   font-weight: 600;
@@ -181,11 +168,11 @@ small {
   color: #fff;
   font-size: 16px;
   transform: .3s ease;
-  background-color: #00bfff;
+  background-color: #646cff;
 }
 
 .submit:hover {
-  background-color: #00bfff96;
+  background-color: #5b63fe;
   color: #fff;
 }
 
@@ -199,4 +186,9 @@ small {
     transform: scale(1.8);
     opacity: 0;
   }
+}
+
+h3 {
+  margin-top: -16px;
+  margin-bottom: -16px;
 }
