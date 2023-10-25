@@ -70,7 +70,6 @@ small {
   max-width: 350px;
   padding: 20px;
   border-radius: 20px;
-  position: relative;
   background-color: #1a1a1a;
   color: #fff;
   border: 1px solid #333;
@@ -140,7 +139,7 @@ small {
 .form label .input {
   background-color: #333;
   color: #fff;
-  width: 100%;
+  width: 94%;
   padding: 20px 05px 05px 10px;
   outline: 0;
   border: 1px solid rgba(105, 105, 105, 0.397);
@@ -172,10 +171,6 @@ small {
 
 .input {
   font-size: medium;
-}
-
-input {
-   width: 350px;
 }
 
 .submit {
